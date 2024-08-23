@@ -1,0 +1,44 @@
+@import "./mixins";
+
+:root {
+  /* Colors */
+  /* Font Family */
+  --ff-headings: "Red Hat Text", sans-serif;
+
+  /* Font Weight */
+  --fw-normal: 400;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  /* Base font sizes (mobile) */
+
+  /* Transitions */
+  --transition-duration-fast: 0.2s;
+  --transition-duration-base: 0.3s;
+  --transition-duration-slow: 0.5s;
+  --transition-timing-function: ease-in-out;
+
+  /* Shadows */
+  --box-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  --box-shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --box-shadow-lg: 0 10px 20px rgba(0, 0, 0, 0.15);
+
+  /* Spacing system */
+
+  --spacing-1: 0.25rem; /* 4px */
+  --spacing-2: 0.5rem; /* 8px */
+  --spacing-3: 0.75rem; /* 12px */
+  --spacing-4: 1rem; /* 16px */
+  --spacing-5: 1.5rem; /* 24px */
+  --spacing-6: 2rem; /* 32px */
+  --spacing-8: 3rem; /* 48px */
+  --spacing-10: 4rem; /* 64px */
+  --spacing-12: 6rem; /* 96px */
+
+  /* Scrll  */
+  --scrollbar-width: 12px;
+  --scrollbar-track-bg: #f1f1f1;
+  --scrollbar-track-br: 20px;
+  --scrollbar-thumb-bg: #b9b9b9;
+  --scrollbar-thumb-hover-bg: #555;
+}
